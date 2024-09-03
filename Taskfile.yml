@@ -1,0 +1,9 @@
+version: '3'
+dotenv: ['.env']
+tasks:
+  train:
+    cmds:
+      - poetry run python train.py
+  play:
+    cmds:
+      - poetry run python play.py
